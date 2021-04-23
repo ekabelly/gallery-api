@@ -1,7 +1,7 @@
 const picRepo = require('../repo/pic.repo');
 
 module.exports.fetchPics = async queryParams => {
-    const picRes = await picRepo.fetchPicsRepo(queryParams);
+    const picRes = await picRepo.fetchPicsRepo({queryParams});
     return picRes;
 }
 

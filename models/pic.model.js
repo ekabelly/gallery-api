@@ -2,7 +2,8 @@ const mongoose = require('mongoose');
 const mongooseLeanId = require('mongoose-lean-id');
 
 const PicSchema = mongoose.Schema({
-    name: String,
+    picName: String,
+    picFileName: String,
     picAddress: String,
     artist: String,
     description: String
@@ -10,4 +11,4 @@ const PicSchema = mongoose.Schema({
 
 PicSchema.plugin(mongooseLeanId);
 
-module.exports = mongoose.model('ads', PicSchema);
+module.exports = mongoose.model('pictures', PicSchema);

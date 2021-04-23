@@ -2,12 +2,12 @@ const express = require('express');
 const picService = require('../sevices/pic.service');
 const picRouter = express.Router();
 
-const { resHandler } = require('../middlewares/middlewares');
+const { resHandler, validateQueryParams } = require('../middlewares/middlewares');
 
-// fetch gallery
-picRouter.get('/', async (req, res, next) => {
+// fetch pics
+picRouter.get('/', validateQueryParams, async (req, res, next) => {
     try {
-        const picsRes = await picService.fetchPics();
+        const picsRes = await picService.fetchPics(req.query);
         resHandler(picsRes, req, res);
     } catch (e) {
         next(e);
