@@ -17,5 +17,6 @@ app.use((err, req, res, next) => errHandler(err, req, res));
 
 (async () => {
     await conn;
+    await require('./util/create-initial-data')();
     app.listen(process.env.PORT, () => console.log(`app listening on port ${process.env.PORT}`))
 })();
