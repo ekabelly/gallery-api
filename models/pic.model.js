@@ -6,7 +6,9 @@ const PicSchema = mongoose.Schema({
     picFileName: String,
     picAddress: String,
     artist: String,
-    description: String
+    description: String,
+    picWeight: String,
+    resolution: String
 });
 
 PicSchema.plugin(mongooseLeanId);

@@ -2,8 +2,8 @@ const Pic = require('../models/pic.model');
 const { buildPicQuery } = require('../util/query-builder');
 
 module.exports.fetchPicsRepo = async ({queryParams, requestedProperties = null}) => {
-    const query = buildPicQuery(queryParams, requestedProperties);
-    const picRes = await Pic.find(query, ).lean();
+    const query = buildPicQuery(queryParams);
+    const picRes = await Pic.find(query, requestedProperties).lean();
     return picRes;
 }
 

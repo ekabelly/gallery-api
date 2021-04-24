@@ -1,52 +1,66 @@
 [
-    {
-      "_id": "6082d141877320b2d59faff9",
-      "picName": "testPic",
-      "picAddress": "https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg",
-      "artist": "John Doe",
-      "description": " a picture",
-      "imgWeight": "a lot",
-      "resolution": "4k",
-      "id": "6082d141877320b2d59faff9"
-    },
-    {
-      "_id": "6082d1f9877320b2d59fb029",
-      "picName": "testPic2",
-      "picAddress": "https://i.ytimg.com/vi/GibiNy4d4gc/maxresdefault.jpg",
-      "artist": "Wedoh",
-      "description": " a picture 2",
-      "imgWeight": "3mb",
-      "resolution": "1080p",
-      "id": "6082d1f9877320b2d59fb029"
-    },
-    {
-      "_id": "6083baa0877320b2d59fdf92",
-      "picName": "testPic3",
-      "picFileName": "lion.webp",
-      "artist": "charmander",
-      "description": " a picture 2",
-      "imgWeight": "11gb",
-      "resolution": "11x11",
-      "id": "6083baa0877320b2d59fdf92"
-    },
-    {
-      "_id": "6083babe877320b2d59fdf97",
-      "picName": "aaa",
-      "picAddress": "picFileName",
-      "artist": "doctor who",
-      "description": "bug",
-      "imgWeight": "a lot",
-      "resolution": "resolution",
-      "id": "6083babe877320b2d59fdf97"
-    },
-    {
-      "_id": "6083bae1877320b2d59fdfa2",
-      "picName": "bbb",
-      "picAddress": "https://image.shutterstock.com/image-vector/cartoon-happy-lion-isolated-on-600w-675125593.jpg",
-      "artist": "the redd power ranger",
-      "description": " a red pic",
-      "imgWeight": "ton",
-      "resolution": "111",
-      "id": "6083bae1877320b2d59fdfa2"
-    }
-  ]
+  {
+    "picName": "testPic",
+    "picAddress": "https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg",
+    "artist": "John Doe",
+    "description": " a picture",
+    "resolution": "4k",
+    "picWeight": "15mb"
+  },
+  {
+    "picName": "testPic2",
+    "picAddress": "https://i.ytimg.com/vi/GibiNy4d4gc/maxresdefault.jpg",
+    "artist": "Wedoh",
+    "description": " a picture 2",
+    "resolution": "2k",
+    "picWeight": "11mb"
+  },
+  {
+    "picName": "testPic3",
+    "picFileName": "lion.webp",
+    "artist": "charmander",
+    "description": " a picture 2",
+    "resolution": "1080",
+    "picWeight": "399gb"
+  },
+  {
+    "picName": "aaa",
+    "picAddress": "https://www.pompa.co.il/images/itempics/GPBATTERYMIVZA_151220200934081.jpg",
+    "artist": "doctor who",
+    "description": "battery",
+    "resolution": "720p",
+    "picWeight": "1mb"
+  },
+  {
+    "picName": "bbb",
+    "picAddress": "https://image.shutterstock.com/image-vector/cartoon-happy-lion-isolated-on-600w-675125593.jpg",
+    "artist": "the redd power ranger",
+    "description": " a red pic",
+    "resolution": "240p",
+    "picWeight": "12kb"
+  },
+  {
+    "picName": "somePic",
+    "picAddress": "https://image.shutterstock.com/image-vector/cartoon-happy-lion-isolated-on-600w-675125593.jpg",
+    "artist": "luke skywalker",
+    "description": "",
+    "resolution": "240p",
+    "picWeight": "12kb"
+  },
+  {
+    "picName": "some Pic 2",
+    "picAddress": "https://am23.mediaite.com/tms/cnt/uploads/2019/12/palpatine-teethpng-e1577811982880.jpeg",
+    "artist": "anakin skywalker",
+    "description": "unnnlimited power!!",
+    "resolution": "8k",
+    "picWeight": "more than you can lift"
+  },
+  {
+    "picName": "the dark knight",
+    "picAddress": "https://upload.wikimedia.org/wikipedia/he/c/cf/Batman-JimLee.jpg",
+    "artist": "The Joker",
+    "description": "no powers but most powerfull",
+    "resolution": "2k",
+    "picWeight": "12mg"
+  }
+]
