@@ -24,4 +24,14 @@ picRouter.get('/:id', async (req, res, next) => {
     }
 });
 
+// get pic details by id
+picRouter.get('/:id/details', async (req, res, next) => {
+    try {
+        const pic = await picService.fetchPicById(req.params.id, 'resolution imgWeight');
+        resHandler(pic, req, res);
+    } catch (e) {
+        next(e);
+    }
+});
+
 module.exports = picRouter;

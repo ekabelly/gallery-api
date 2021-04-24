@@ -7,7 +7,7 @@ module.exports.fetchPicsRepo = async ({queryParams, requestedProperties = null})
     return picRes;
 }
 
-module.exports.fetchPicById = async id => {
-    const picRes = await Pic.findById({ _id: id }).lean();
+module.exports.fetchPicById = async (id, requestedProperties = null) => {
+    const picRes = await Pic.findById({ _id: id }, requestedProperties).lean();
     return picRes;
 }
